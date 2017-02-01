@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "626762525609",
+    "firebase_url": "https://ssn-mun-2016.firebaseio.com",
+    "project_id": "ssn-mun-2016",
+    "storage_bucket": "ssn-mun-2016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626762525609:android:dbd5a8f4c473570d",
+        "android_client_info": {
+          "package_name": "a2016.app.ssnmun.com.ssnmun2016"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626762525609-ibq6m5rfvf7bcb8j6rdalgk8oedgreb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnL7se4NR39UlrlI3wvdU-xSesgyU2Z4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

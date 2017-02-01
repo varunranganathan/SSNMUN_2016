@@ -1,0 +1,156 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="a2016.app.ssnmun.com.ssnmun2016.ContactFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Radhakrishnan Venkataraman"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Secretary General"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Now"
+                android:id="@+id/callButton1"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vaibhav KN"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deputy Secretary General"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Now"
+                android:id="@+id/callButton2"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akshay Aravindan "
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="USG Delegate Affairs"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Now"
+                android:id="@+id/callButton5"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sai Lalitha "
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="USG Hospitality"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Now"
+                android:id="@+id/callButton3"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarun Subramanian"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="USG Hospitality"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Now"
+                android:id="@+id/callButton4"
+                style="?android:attr/borderlessButtonStyle"
+                />
+        </LinearLayout>style="?android:attr/borderlessButtonStyle"
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        >
+        <Button
+            android:text="Where is SSN?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationButton"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>

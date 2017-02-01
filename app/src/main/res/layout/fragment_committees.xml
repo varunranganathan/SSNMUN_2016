@@ -1,0 +1,63 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CommitteeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageButton
+        android:id="@+id/disecButton"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/disec"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="8dp"
+        />
+    <ImageButton
+        android:id="@+id/scButton"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/sc"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="8dp"
+        />
+    <ImageButton
+        android:id="@+id/hrcButton"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/hrc"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="8dp"
+        />
+    <ImageButton
+        android:id="@+id/essButton"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ess"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="8dp"
+        />
+    <ImageButton
+        android:id="@+id/auButton"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/au"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="8dp"
+        />
+    <ImageButton
+        android:id="@+id/oicButton"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/oic"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="8dp"
+        />
+
+</LinearLayout>
+</ScrollView>
